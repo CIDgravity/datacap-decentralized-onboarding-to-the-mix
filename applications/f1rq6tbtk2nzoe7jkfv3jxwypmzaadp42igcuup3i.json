@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1rq6tbtk2nzoe7jkfv3jxwypmzaadp42igcuup3i",
+  "Issue Number": "6",
+  "Client": {
+    "Name": "AnyLog Inc",
+    "Region": "United States",
+    "Industry": "Web3 / Crypto",
+    "Website": "anylog.network",
+    "Social Media": "https://x.com/royshadmon",
+    "Social Media Type": "Twitter",
+    "Role": "Other"
+  },
+  "Project": {
+    "Brief history of your project and organization": "We are building the next-generation decentralized IoT platform—one where data owners can fully realize the value of their data.\n\nAnyLog achieves this through proprietary technology that overcomes the core challenges of IoT data management: Volume, Velocity, and Variety. It enables existing applications to immediately access and act on all available IoT data, while unlocking entirely new applications that were previously impractical or impossible.\n\nUsing a globally distributed peer-to-peer network, blockchain-based coordination, an incentive layer, and massive parallelism, AnyLog offers a cost-effective and scalable solution for collecting, storing, and querying IoT data using standard SQL.\n\nWhat sets AnyLog apart from traditional SQL-based systems is its ability to execute SQL queries on distributed data without physically centralizing that data. When a query is issued, AnyLog automatically decomposes it into sub-queries, distributes them across relevant nodes, executes them locally, and returns a unified result set—delivering the experience of querying a single, centralized database while preserving decentralization.\n\nThe AnyLog network provides a simple, repeatable framework for managing IoT data, scales horizontally to accommodate massive datasets, and creates new opportunities to securely share and monetize data in a trusted, decentralized environment.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "As part of the AnyLog protocol, telemetry data is stored twice: once as files on the node’s local filesystem and once in a database. We plan to transition the file storage from the local filesystem to Filecoin. These files—often in JSON.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "N/A",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "{\"timestamp\": \"2025-07-09T15:57:24.929548Z\", \"column_1\": 599.0, \"column_2\": 11.3, \"column_3\": 260.0, \"column_4\": 441.08, \"column_5\": 55.0, \"column_6\": 372.7, \"column_7\": 464.6, \"column_8\": 188.3, \"column_9\": 190.1, \"column_10\": 851.85, \"column_11\": 260.0, \"column_12\": 295.74, \"column_13\": 320.0, \"column_14\": 579.4, \"column_15\": 91.0, \"column_16\": 5.4, \"column_17\": 535.7, \"column_18\": 43.9, \"column_19\": 59.81, \"column_20\": 18.1, \"column_21\": 62.7, \"column_22\": 49.8, \"column_23\": 60.23, \"column_24\": 1.98, \"column_25\": 168.0}\n{\"timestamp\": \"2025-07-14T15:57:24.929548Z\", \"column_1\": 157.66, \"column_2\": 184.0, \"column_3\": 32.26, \"column_4\": 178.67, \"column_5\": 26.6, \"column_6\": 210.15, \"column_7\": 558.3, \"column_8\": 702.0, \"column_9\": 61.0, \"column_10\": 154.0, \"column_11\": 143.0, \"column_12\": 518.41, \"column_13\": 848.7, \"column_14\": 543.88, \"column_15\": 766.19, \"column_16\": 180.0, \"column_17\": 6.61, \"column_18\": 98.68, \"column_19\": 174.0, \"column_20\": 27.9, \"column_21\": 388.2, \"column_22\": 310.5, \"column_23\": 50.0, \"column_24\": 95.1, \"column_25\": 16.7}\n{\"timestamp\": \"2025-06-06T15:57:24.929548Z\", \"column_1\": 48.97, \"column_2\": 574.7, \"column_3\": 127.0, \"column_4\": 15.0, \"column_5\": 395.02, \"column_6\": 649.9, \"column_7\": 463.85, \"column_8\": 139.69, \"column_9\": 316.0, \"column_10\": 643.9, \"column_11\": 13.0, \"column_12\": 442.42, \"column_13\": 218.48, \"column_14\": 166.54, \"column_15\": 549.0, \"column_16\": 344.2, \"column_17\": 24.1, \"column_18\": 280.0, \"column_19\": 359.4, \"column_20\": 437.3, \"column_21\": 115.03, \"column_22\": 205.91, \"column_23\": 71.33, \"column_24\": 187.0, \"column_25\": 107.41}\n{\"timestamp\": \"2025-06-26T15:57:24.929548Z\", \"column_1\": 251.24, \"column_2\": 500.9, \"column_3\": 30.79, \"column_4\": 246.0, \"column_5\": 122.0, \"column_6\": 297.54, \"column_7\": 77.9, \"column_8\": 1.55, \"column_9\": 146.0, \"column_10\": 335.8, \"column_11\": 674.0, \"column_12\": 410.0, \"column_13\": 537.0, \"column_14\": 56.3, \"column_15\": 97.56, \"column_16\": 778.0, \"column_17\": 456.0, \"column_18\": 148.0, \"column_19\": 134.8, \"column_20\": 99.0, \"column_21\": 414.1, \"column_22\": 292.0, \"column_23\": 36.0, \"column_24\": 200.6, \"column_25\": 20.0}\n{\"timestamp\": \"2025-07-26T15:57:24.929548Z\", \"column_1\": 146.1, \"column_2\": 112.0, \"column_3\": 586.09, \"column_4\": 811.0, \"column_5\": 3.0, \"column_6\": 236.43, \"column_7\": 63.3, \"column_8\": 674.0, \"column_9\": 105.65, \"column_10\": 621.8, \"column_11\": 53.0, \"column_12\": 793.3, \"column_13\": 84.75, \"column_14\": 338.4, \"column_15\": 543.0, \"column_16\": 169.8, \"column_17\": 334.98, \"column_18\": 391.0, \"column_19\": 322.5, \"column_20\": 153.0, \"column_21\": 129.6, \"column_22\": 853.0, \"column_23\": 276.0, \"column_24\": 187.0, \"column_25\": 482.46}\n{\"timestamp\": \"2025-08-05T15:57:24.929548Z\", \"column_1\": 245.6, \"column_2\": 216.7, \"column_3\": 494.61, \"column_4\": 1.0, \"column_5\": 283.0, \"column_6\": 14.2, \"column_7\": 37.0, \"column_8\": 17.81, \"column_9\": 262.02, \"column_10\": 145.0, \"column_11\": 18.73, \"column_12\": 0.7, \"column_13\": 168.0, \"column_14\": 729.0, \"column_15\": 518.38, \"column_16\": 98.9, \"column_17\": 63.9, \"column_18\": 373.3, \"column_19\": 142.0, \"column_20\": 239.8, \"column_21\": 85.0, \"column_22\": 437.0, \"column_23\": 515.0, \"column_24\": 229.96, \"column_25\": 58.0}\n{\"timestamp\": \"2025-07-26T15:57:24.929548Z\", \"column_1\": 334.0, \"column_2\": 48.0, \"column_3\": 49.68, \"column_4\": 226.3, \"column_5\": 55.98, \"column_6\": 0.0, \"column_7\": 14.0, \"column_8\": 47.04, \"column_9\": 169.0, \"column_10\": 90.9, \"column_11\": 161.3, \"column_12\": 266.31, \"column_13\": 42.26, \"column_14\": 732.2, \"column_15\": 256.0, \"column_16\": 157.7, \"column_17\": 587.0, \"column_18\": 119.5, \"column_19\": 186.6, \"column_20\": 170.0, \"column_21\": 53.85, \"column_22\": 268.98, \"column_23\": 704.5, \"column_24\": 248.75, \"column_25\": 198.59}\n{\"timestamp\": \"2025-08-03T15:57:24.929548Z\", \"column_1\": 241.72, \"column_2\": 177.2, \"column_3\": 567.13, \"column_4\": 639.58, \"column_5\": 202.0, \"column_6\": 197.0, \"column_7\": 205.61, \"column_8\": 48.66, \"column_9\": 158.3, \"column_10\": 54.2, \"column_11\": 31.0, \"column_12\": 261.6, \"column_13\": 269.0, \"column_14\": 86.4, \"column_15\": 224.5, \"column_16\": 490.06, \"column_17\": 165.0, \"column_18\": 154.3, \"column_19\": 155.82, \"column_20\": 87.0, \"column_21\": 411.3, \"column_22\": 91.0, \"column_23\": 186.5, \"column_24\": 301.0, \"column_25\": 42.12}\n{\"timestamp\": \"2025-08-16T15:57:24.930559Z\", \"column_1\": 477.54, \"column_2\": 107.26, \"column_3\": 321.33, \"column_4\": 24.0, \"column_5\": 112.29, \"column_6\": 3.0, \"column_7\": 216.76, \"column_8\": 271.8, \"column_9\": 255.5, \"column_10\": 520.78, \"column_11\": 51.6, \"column_12\": 126.8, \"column_13\": 548.0, \"column_14\": 656.62, \"column_15\": 452.0, \"column_16\": 157.4, \"column_17\": 500.1, \"column_18\": 16.0, \"column_19\": 35.0, \"column_20\": 2.4, \"column_21\": 76.0, \"column_22\": 609.0, \"column_23\": 361.57, \"column_24\": 45.0, \"column_25\": 173.1}\n{\"timestamp\": \"2025-07-30T15:57:24.930559Z\", \"column_1\": 29.0, \"column_2\": 275.0, \"column_3\": 18.0, \"column_4\": 18.4, \"column_5\": 531.0, \"column_6\": 27.7, \"column_7\": 214.0, \"column_8\": 30.4, \"column_9\": 799.0, \"column_10\": 31.56, \"column_11\": 312.3, \"column_12\": 313.9, \"column_13\": 17.0, \"column_14\": 183.2, \"column_15\": 376.9, \"column_16\": 330.4, \"column_17\": 356.09, \"column_18\": 485.4, \"column_19\": 702.27, \"column_20\": 519.7, \"column_21\": 22.2, \"column_22\": 4.0, \"column_23\": 21.91, \"column_24\": 664.49, \"column_25\": 337.4}",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
+    "In which geographies do you plan on making storage deals": "North America",
+    "How will you be distributing your data to storage providers": "I don't know yet",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "This is to be determined.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "100 GiB",
+    "Single Size Dataset": "10MB",
+    "Replicas": 4,
+    "Weekly Allocation": "100 GiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-08-05 20:32:46.278840193 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1rq6tbtk2nzoe7jkfv3jxwypmzaadp42igcuup3i",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
